@@ -1,0 +1,50 @@
+ion-header {
+    ion-toolbar {
+        ion-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #000;
+        }
+    }
+    ion-back-button {
+        --background: #fff;
+        --color: #000;
+        font-size: 1.2rem;
+    }
+}
+ion-list {
+    ion-item {
+        ion-checkbox {
+            --color: #0070c9;
+        }
+        ion-label {
+            font-size: 1.3rem;
+            color: #000;
+            text-decoration: none;
+            &.completed {
+                text-decoration: line-through;
+            }
+        }
+    }
+}
+ion-item {
+    ion-input {
+        --background: #fff;
+        --border-radius: 5px;
+        font-size: 1rem;
+    }
+    ion-button {
+        --background: #0070c9;
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: #fff;
+    }
+    ion-label.todo-text {
+        margin-left: 10px;
+    }
+}
+
+ion-item.completed ion-label {
+    text-decoration: line-through;
+    color: #8e8e8e;
+}
